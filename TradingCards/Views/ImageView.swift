@@ -17,7 +17,7 @@ struct ImageView: View {
         ZStack{
             Rectangle()
                 .foregroundStyle(.gray)
-        PlayerImage: "Djokovic";
+            Image(PlayerImage)
                 .resizable()
                 .scaledToFit()
                 .padding()
@@ -26,8 +26,8 @@ struct ImageView: View {
                     Spacer()
                     ZStack{
                         Rectangle()
-                            .fill(.white)
-                    PlayerName: " Novak Djokovic"
+                            .fill(.white.opacity(0.5))
+                    Text(PlayerName)
                             .font(Font.system(size: 35))
                     }
                 }

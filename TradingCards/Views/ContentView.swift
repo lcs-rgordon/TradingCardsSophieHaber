@@ -17,7 +17,7 @@ struct ContentView: View {
             }
             .padding()
             
-            ImageView()
+            ImageView(PlayerName: "Djokovic", PlayerImage: "Djokovic")
             
             
         }
